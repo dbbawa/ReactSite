@@ -1,0 +1,30 @@
+.tabs {
+    display: flex;
+    padding-bottom: 30px;
+    justify-content: center;
+    margin: -20px 0;
+}
+
+.tabs a {
+    text-decoration: none;
+    color: var(--color-black);
+}
+
+.tab {
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tabs .tab:hover {
+    opacity: 0.7;
+    color: var(--color-black);
+}
+
+.hamburger {
+    font-size: 24px;
+    color: var(--color-white);
+    cursor: pointer;
+    display: none; 
+}

@@ -1,0 +1,122 @@
+/* Destinations */
+.dest-page .horizontal-boxes {
+    display: flex;
+    width: 80%;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin-top: 20px; 
+    margin: 0 auto;
+}
+
+.dest-page {
+    background-color: var(--color-background);
+    color: var(--color-black);
+}
+
+.dest-page .text-box {
+    flex: 1; 
+    padding: 20px;
+    border-radius: 10px;
+    text-align: left;
+}
+
+.dest-page .text-box h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: normal;
+}
+
+.dest-page .text-box p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.dest-page .dest-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px; 
+}
+
+#destinations-section {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); 
+    gap: 20px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.dest-page .dest-container section {
+    border-radius: 15px; 
+    overflow: hidden; 
+    transition: transform 0.3s ease;
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+}
+
+.dest-page .dest-container section:hover {
+    transform: scale(1.05);
+}
+
+.dest-page .dest-img {
+    width: 200px;
+    height: 150px; 
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.dest-page .dest-img:hover {
+    transform: scale(1.05); 
+}
+
+.dest-page .dest-title {
+    text-align: center;
+    font-size: 18px; 
+    font-weight: bold; 
+    padding: 10px; 
+    color: var(--color-black); 
+}
+
+/* Modal */
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: 10% auto; 
+    padding: 20px;
+    border-radius: 8px;
+    height: auto;
+    width: 900%;
+    max-width: 600px;
+    z-index: 1001;
+    position: relative; 
+}
+
+#modal-image {
+    width: 300px;
+    height: 200px; 
+    border: 2px solid var(--color-black);
+    object-fit: cover;
+    border-radius: 5px; 
+}
+
+.close-button {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 1002;
+}

@@ -1,0 +1,114 @@
+/* Cost & Gear */
+.cost-page {
+    background-color: var(--color-background);
+    color: var(--color-black);
+}
+
+.cost-page .content-wrapper {
+    display: flex; 
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: space-between; 
+}
+
+.cost-page .wear {
+    order: 1;
+    flex: 1; 
+    text-align: left; 
+}
+
+.cost-page .more-info {
+    order: 2; 
+    text-align: center;
+    flex: 0 1 30%;
+    margin: 0 20px; 
+}
+
+.cost-page .right-side {
+    order: 3;
+    flex: 1; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+.cost-page .two-column-layout {
+    display: block; 
+    margin-top: 20px; 
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.cost-page .left-side {
+    width: 90%; 
+    padding: 10px;
+    text-align: left; 
+    margin: 30px auto;
+    border: 2px solid var(--color-light-gray); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.cost-page .grid-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    width: 90%;
+    margin: 0 auto;
+}
+
+.cost-page .grid-item {
+    flex: 1 1 200px;
+    max-width: 300px; 
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.cost-page .content-wrapper h2 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+.cost-page .more-info .btn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 30px auto;
+    text-align: center;
+    color: var(--color-white);
+    border-radius: 15px;
+    text-decoration: none;
+    border: 2px solid var(--color-white); 
+    background-color: var(--color-light-gray);
+}
+
+.cost-page .more-info .btn:hover {
+    opacity: 0.7;
+}
+
+.cost-page .grid-item img {
+    margin-bottom: 10px;
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+.cost-page .bottom-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.cost-page .bottom-section img {
+    width: 18%; 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
