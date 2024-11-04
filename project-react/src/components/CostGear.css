@@ -112,3 +112,33 @@
     border-radius: 8px;
     object-fit: cover;
 }
+
+@media (max-width: 600px) {
+    .cost-page .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .cost-page .left-side,
+    .cost-page .main-content,
+    .cost-page .right-side {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .cost-page .main-content {
+        align-items: center;
+    }
+
+    .cost-page .grid-container {
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+    }
+
+    .cost-page .left-side {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+}

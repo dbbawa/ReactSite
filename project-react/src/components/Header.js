@@ -1,12 +1,13 @@
 import React from 'react';
 import './Header.css';
+import '../styles.css';
 
 const Header = () => {
-    return (
-      <header>
+  return (
+    <header className="header">
       <h1 className="logo">SkiMastery</h1>
-      </header>
-    );
-  };
+    </header>
+  );
+};
 
 export default Header;

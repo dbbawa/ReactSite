@@ -4,6 +4,7 @@ import blackDiamond from '../images/black-diamond.jpg';
 import blueSlope from '../images/blue-slope.jpg';
 import greenSlope from '../images/green-slope.jpg';
 import logo from '../images/logo.jpg';
+import '../styles.css';
 
 const Basics = () => {
   return (

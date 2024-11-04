@@ -1,5 +1,6 @@
 import React from 'react';
-import './Basics.css'; // Import your CSS file for styles
+import './Basics.css'; 
+import '../styles.css';
 
 const Basics = () => {
   return (

@@ -1,5 +1,7 @@
 import React from 'react';
 import './Destinations.css'; 
+import '../styles.css';
+
 
 const Destinations = () => {
     return (

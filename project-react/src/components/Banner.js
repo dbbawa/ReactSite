@@ -1,12 +1,10 @@
 import React from 'react';
-import './Banner.css'; 
-import topImage from '../images/topImage'; 
+import './Banner.css';
+import '../styles.css';
 
 const Banner = () => {
     return (
-        <div className="banner">
-            <img src={topImage} className="full-width-banner" alt="SkiMastery Banner" />
-        </div>
+        <img src="images/top-image.jpg" className="full-width-banner" alt="SkiMastery Banner" />
     );
 };
 

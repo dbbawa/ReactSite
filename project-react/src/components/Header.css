@@ -19,3 +19,14 @@ h1 {
     margin: 0;
     padding: 20px 0;
 }
+
+@media (max-width: 600px) {
+
+    header {
+        padding-top: 15px;
+    }
+
+    .logo {
+        padding-bottom: 0;
+    }
+}

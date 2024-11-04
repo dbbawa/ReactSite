@@ -28,3 +28,30 @@
     cursor: pointer;
     display: none; 
 }
+
+@media (max-width: 600px) {
+    .tabs {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        opacity: 0.9;
+        background-color: var(--color-background); 
+        color: var(--color-black);
+        z-index: 1; 
+        transition: max-height 0.3s ease-out; 
+        max-height: 0; 
+        overflow: hidden;
+    }
+    
+    .tabs.active {
+        display: flex;
+        max-height: 300px;
+    }
+
+    .hamburger {
+        display: block; 
+        padding-bottom: 10px;
+        color: var(--color-black);
+        margin-bottom: 10px;
+    }
+}
