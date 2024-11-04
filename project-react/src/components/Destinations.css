@@ -1,5 +1,5 @@
 /* Destinations */
-.dest-page .horizontal-boxes {
+.horizontal-boxes {
     display: flex;
     width: 80%;
     justify-content: center; 
@@ -14,25 +14,25 @@
     color: var(--color-black);
 }
 
-.dest-page .text-box {
+ .text-box {
     flex: 1; 
     padding: 20px;
     border-radius: 10px;
     text-align: left;
 }
 
-.dest-page .text-box h2 {
+.text-box h2 {
     font-size: 25px;
     margin-bottom: 10px;
     font-weight: normal;
 }
 
-.dest-page .text-box p {
+.text-box p {
     font-size: 15px;
     line-height: 1.6;
 }
 
-.dest-page .dest-container {
+ .dest-container {
     display: flex;
     flex-direction: column;
     align-items: center; 
@@ -47,7 +47,7 @@
     margin: 0 auto;
 }
 
-.dest-page .dest-container section {
+.dest-container section {
     border-radius: 15px; 
     overflow: hidden; 
     transition: transform 0.3s ease;
@@ -56,22 +56,22 @@
     align-items: center; 
 }
 
-.dest-page .dest-container section:hover {
+.dest-container section:hover {
     transform: scale(1.05);
 }
 
-.dest-page .dest-img {
+.dest-img {
     width: 200px;
     height: 150px; 
     object-fit: cover;
     border-radius: 10px;
 }
 
-.dest-page .dest-img:hover {
+ .dest-img:hover {
     transform: scale(1.05); 
 }
 
-.dest-page .dest-title {
+ .dest-title {
     text-align: center;
     font-size: 18px; 
     font-weight: bold; 
@@ -122,14 +122,14 @@
 }
 
 @media (max-width: 600px) {
-    .dest-page .horizontal-boxes .text-box {
+    .horizontal-boxes .text-box {
         width: 100%;
         margin: 10px 0;
         padding: 15px;
         box-sizing: border-box;
     }
 
-    .dest-page .horizontal-boxes {
+     .horizontal-boxes {
         display: flex;
         flex-direction: column; 
         width: 80%;
@@ -139,14 +139,14 @@
         margin: 0 auto;
     }
     
-    .dest-page .text-box {
+     .text-box {
         width: 100%;
         margin: 10px 0;
         padding: 15px;
         box-sizing: border-box;
     }
 
-    .dest-page .dest-container {
+     .dest-container {
         display: flex;
         flex-direction: column; 
         width: 90%;
@@ -155,7 +155,7 @@
         align-items: center;
     }
 
-    .dest-page .dest-box {
+    .dest-box {
         display: flex;
         flex-direction: row; 
         align-items: center; 
@@ -168,21 +168,21 @@
         box-sizing: border-box;
     }
 
-    .dest-page .dest-box {
+    .dest-box {
         width: calc(100% - 20px);
         box-sizing: border-box;
     }
 
-    .dest-page .dest-img {
+    .dest-img {
         margin-right: 10px; 
     }
 
-    .dest-page .dest-img img {
+   .dest-img img {
         width: 100px; 
         height: auto; 
     }
 
-    .dest-page .dest-title {
+    .dest-title {
         text-align: center; 
         font-size: 18px;
         font-weight: bold;

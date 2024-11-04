@@ -1,6 +1,7 @@
 import React from 'react';
 import './Contact.css'; 
 import '../styles.css';
+import qr from '../images/qr.png' 
 
 const Contact = () => {
   return (
@@ -73,7 +74,7 @@ const Contact = () => {
           <div className="qr-box">
             <a href="">
               <div className="qr-img">
-                <img src="images/qr.png" alt="QR Code" />
+                <img src={qr} alt="QR Code" />
               </div>
               <div className="qr-title">
                 <p>Join Our Newsletter!</p>
