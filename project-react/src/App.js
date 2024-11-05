@@ -13,7 +13,7 @@ import './styles.css';
 
 const App = () => {
   return (
-    <BrowserRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
     <Router>
       <div className="App">
         <Header />
