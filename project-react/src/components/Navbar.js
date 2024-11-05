@@ -12,7 +12,7 @@ const Navbar = () => {
     return (
         <header>
             <div className="hamburger" id="hamburger" onClick={toggleMenu}>
-                &#9776; {/* Hamburger icon */}
+                &#9776; 
             </div>
             <nav className={`tabs ${isOpen ? 'active' : ''}`} id="nav-links">
                 <a href="/" className="tab">Home</a>

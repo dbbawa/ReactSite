@@ -1,7 +1,6 @@
 import React from 'react';
 import './Home.css'; 
 import '../styles.css';
-import article from '../images/article.jpg';
 
 const Home = () => {
     return (
@@ -13,7 +12,7 @@ const Home = () => {
                 </section>
                 <section className="middle-section">
                     <div className="word-week">
-                        <h2>Word of the Week</h2>
+                        <h2><strong>Word of the Week</strong></h2>
                         <p><strong>Moguls</strong></p>
                         <p>
                             Definition? Bumps that form on ski slopes when skiers carve turns and push snow into mounds.<br /><br />
@@ -21,11 +20,16 @@ const Home = () => {
                             How are they used? To create a challenge for skiers.
                         </p>
                     </div>
-                    <div className="article-box">
-                        <a href="https://snowbrains.com/where-in-the-world-will-it-snow-this-week-these-are-the-top-5-forecasted-resorts-for-the-10-days-of-september-8-17-2024/" target="_blank" rel="noopener noreferrer">
-                            <img src={article} alt="Article about skiing forecasts" />
-                        </a>
-                    </div>
+                <div className="article-box">
+                    <a href="https://snowbrains.com/where-in-the-world-will-it-snow-this-week-these-are-the-top-5-forecasted-resorts-for-the-10-days-of-september-8-17-2024/" target="_blank" rel="noopener noreferrer">
+                        <div className="article-img">
+                            <img src="images/article.jpg" alt="Featured Article" />
+                        </div>
+                        <div className="article-title">
+                            <p>Featured Article</p>
+                        </div>
+                    </a>
+                </div>
                 </section>
                 <section className="right-side">
                     <h2>The History of Skiing</h2>

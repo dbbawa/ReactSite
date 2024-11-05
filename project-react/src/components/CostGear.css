@@ -1,0 +1,147 @@
+/* Cost & Gear */
+.cost-page {
+    background-color: var(--color-background);
+    color: var(--color-black);
+}
+
+.content-wrapper {
+    display: flex; 
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 30px;
+    justify-content: space-between; 
+}
+
+.wear {
+    order: 1;
+    flex: 1; 
+    text-align: left; 
+}
+
+.more-info {
+    order: 2; 
+    text-align: center;
+    flex: 0 1 30%;
+    margin: 0 20px; 
+}
+
+.lift-tickets {
+    order: 3;
+    flex: 1; 
+    padding: 10px;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    background-color: transparent;
+    border: none;
+}
+
+.two-column-layout {
+    display: block; 
+    margin-top: 20px; 
+    width: 90%;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+ div.middle {
+    width: 90%; 
+    padding: 10px;
+    text-align: left; 
+    margin: 30px auto;
+    border: 2px solid var(--color-light-gray); 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    background-color: transparent;
+}
+
+ .grid-container {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; 
+    width: 90%;
+    margin: 0 auto;
+}
+
+ .grid-item {
+    flex: 1 1 200px;
+    max-width: 300px; 
+    text-align: left;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.content-wrapper h2 {
+    font-weight: normal;
+    font-size: 25px;
+}
+
+ .more-info .btn {
+    display: block;
+    width: 200px;
+    padding: 10px;
+    margin: 30px auto;
+    text-align: center;
+    color: var(--color-white);
+    border-radius: 15px;
+    text-decoration: none;
+    border: 2px solid var(--color-white); 
+    background-color: var(--color-light-gray);
+}
+
+ .more-info .btn:hover {
+    opacity: 0.7;
+}
+
+ .grid-item img {
+    margin-bottom: 10px;
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover; 
+}
+
+ .bottom-section {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.bottom-section img {
+    width: 18%; 
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+     .left-side,
+     .main-content,
+     .right-side {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+     .main-content {
+        align-items: center;
+    }
+
+     .grid-container {
+        grid-template-columns: 1fr; 
+        gap: 20px; 
+    }
+
+    .left-side {
+        width: 90%; 
+        padding: 20px; 
+    }
+
+}
