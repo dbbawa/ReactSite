@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, BrowserRouter } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
 import Basics from './components/Basics';
@@ -13,6 +13,7 @@ import './styles.css';
 
 const App = () => {
   return (
+    <BrowserRouter basename={ProcessingInstruction.env.PUBLIC_URL}>
     <Router>
       <div className="App">
         <Header />
@@ -28,6 +29,7 @@ const App = () => {
         <Footer />
       </div>
     </Router>
+    </BrowserRouter>
   );
 };
 
