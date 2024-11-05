@@ -21,7 +21,6 @@ const Navbar = () => {
                 <a href="/costgear" className="tab">Cost & Gear</a>
                 <a href="/contact" className="tab">Contact Us</a>
             </nav>
-            <img src="images/top-image.jpg" className="full-width-banner" alt="SkiMastery Banner" />
         </header>
     );
 };

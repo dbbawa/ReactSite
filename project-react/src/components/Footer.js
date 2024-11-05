@@ -1,17 +1,19 @@
 import React from 'react';
 import './Footer.css'; 
-import '../styles.css';
 import logo from '../images/logo.jpg'; 
+import '../styles.css';
 
 
 const Footer = () => {
     return (
-        <footer>
+        <>
             <hr className="footer-divider" />
-            <div className="logo-bottom">
-                <img src={logo} className="logo-image" alt="SkiMastery Logo" />
-            </div>
-        </footer>
+            <footer>
+                <div className="logo-bottom">
+                    <img src={logo} className="logo-image" alt="SkiMastery Logo" />
+                </div>
+            </footer>
+        </>
     );
 };
 

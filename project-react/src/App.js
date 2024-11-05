@@ -17,7 +17,7 @@ const App = () => {
       <div className="App">
         <Header />
         <Navbar />
-        <Banner />
+        <Banner/>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/basics" element={<Basics />} />
