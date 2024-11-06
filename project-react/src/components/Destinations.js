@@ -1,13 +1,29 @@
 import React from 'react';
 import './Destinations.css'; 
 import '../styles.css';
+import colorado from '../images/dest-colorado.jpg';
+import cmodal from '../images/colorado.jpg';
+import vermont from '../images/dest-vermont.jpg';
+import vmodal from '../images/vermont-page.jpg';
+import utah from '../images/dest-utah.jpg';
+import umodal from '../images/utah-page.jpg';
+import maine from '../images/dest-maine.jpg';
+import mmodal from '../images/maine-page.jpg';
+import ny from '../images/dest-ny.jpg';
+import nymodal from '../images/ny-page.jpg';
+import canada from '../images/dest-canada.jpg';
+import canmodal from '../images/canada-page.jpg';
+import cali from '../images/california.jpg';
+import calimodal from '../images/california-page.jpg';
+import wash from '../images/washington.jpg';
+import wmodal from '../images/washington-page.jpg';
 
     const Destinations = () => {
         const destinations = [
         {
             title: 'Colorado',
-            image: '/images/dest-colorado.jpg', 
-            modalImage: '/images/colorado.jpg',
+            image: colorado, 
+            modalImage: cmodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',
@@ -17,8 +33,8 @@ import '../styles.css';
         },
         {
             title: 'Vermont',
-            image: '/images/dest-vermont.jpg', 
-            modalImage: '/images/vermont-page.jpg',
+            image: vermont, 
+            modalImage: vmodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',
@@ -28,8 +44,8 @@ import '../styles.css';
         },
         {
             title: 'Utah',
-            image: '/images/dest-utah.jpg', 
-            modalImage: '/images/utah-page.jpg',
+            image: utah, 
+            modalImage: umodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',
@@ -39,8 +55,8 @@ import '../styles.css';
         },
         {
             title: 'Maine',
-            image: '/images/dest-maine.jpg', 
-            modalImage: '/images/maine-page.jpg',
+            image: maine, 
+            modalImage: mmodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',
@@ -50,8 +66,8 @@ import '../styles.css';
         },
         {
             title: 'New York',
-            image: '/images/dest-ny.jpg', 
-            modalImage: '/images/ny-page.jpg',
+            image: ny, 
+            modalImage: nymodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',
@@ -61,8 +77,8 @@ import '../styles.css';
         },
         {
             title: 'Canada',
-            image: '/images/dest-canada.jpg', 
-            modalImage: '/images/canada-page.jpg',
+            image: canada, 
+            modalImage: canmodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',
@@ -72,8 +88,8 @@ import '../styles.css';
         },
         {
             title: 'California',
-            image: '/images/california.jpg', 
-            modalImage: '/images/california-page.jpg',
+            image: cali, 
+            modalImage: calimodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',
@@ -83,8 +99,8 @@ import '../styles.css';
         },
         {
             title: 'Washington',
-            image: '/images/washington.jpg', 
-            modalImage: '/images/washington-page.jpg',
+            image: wash, 
+            modalImage: wmodal,
             resorts: ['Vail', 'Breckenridge', 'Aspen', 'Keystone', 'Copper Mountain', 'Telluride', 'Winter Part', 'Steamboat Springs', 'Silverton Mountain'],
             slopes: 'Colorado is home to some of the most diverse and exciting ski slopes in the country. From the powder-filled trails of Aspen to the expansive runs at Vail, there’s something for everyone, whether you are a beginner or an expert. Many resorts feature a mix of wide-open groomed trails, challenging moguls, and thrilling tree runs, allowing skiers to choose their adventure. Whether you are carving your way down a gentle bunny slope or tackling steep black diamonds, the slopes here promise an unforgettable experience.',
             skiSeason: 'Ski season in Colorado typically kicks off in late November and runs through early April, depending on the weather and snowfall. Early season often offers a mix of excitement and anticipation. By mid-December, most resorts are fully operational, with plenty of fresh powder and festive holiday crowds. January and February are usually the peak months for snow, providing some of the best conditions for skiing. As the season progresses into March, warmer temperatures and sunny days become common, making it a great time for spring skiing. The season usually wraps up by early April, but many resorts host special events and spring parties, allowing skiers to enjoy the slopes a little longer.',

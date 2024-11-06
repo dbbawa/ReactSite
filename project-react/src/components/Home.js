@@ -1,6 +1,7 @@
 import React from 'react';
 import './Home.css'; 
 import '../styles.css';
+import article from '../images/article.jpg';
 
 const Home = () => {
     return (
@@ -23,7 +24,7 @@ const Home = () => {
                 <div className="article-box">
                     <a href="https://snowbrains.com/where-in-the-world-will-it-snow-this-week-these-are-the-top-5-forecasted-resorts-for-the-10-days-of-september-8-17-2024/" target="_blank" rel="noopener noreferrer">
                         <div className="article-img">
-                            <img src="images/article.jpg" alt="Featured Article" />
+                            <img src={article} alt="Featured Article" />
                         </div>
                         <div className="article-title">
                             <p>Featured Article</p>
