@@ -14,7 +14,6 @@ import './styles.css';
 const App = () => {
   return (
     <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <Router>
       <div className="App">
         <Header />
         <Navbar />
@@ -28,7 +27,6 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </Router>
     </BrowserRouter>
   );
 };
