@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'; 
 import Navbar from './components/Navbar';
-import Home from './components/Home';
-import Basics from './components/Basics';
-import Contact from './components/Contact';
-import Destinations from './components/Destinations';
-import CostGear from './components/CostGear';
+import Home from './pages/Home';
+import Basics from './pages/Basics';
+import Contact from './pages/Contact';
+import Destinations from './pages/Destinations';
+import CostGear from './pages/CostGear';
 import Footer from './components/Footer';
 import Header from  './components/Header';
 import Banner from './components/Banner';
