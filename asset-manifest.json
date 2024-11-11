@@ -1,34 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactSite/static/css/main.665e0e42.css",
-    "main.js": "/ReactSite/static/js/main.a3586843.js",
-    "static/media/dest-canada.jpg": "/ReactSite/static/media/dest-canada.0979aff9443708d8ae08.jpg",
-    "static/media/dest-ny.jpg": "/ReactSite/static/media/dest-ny.b3db76ad87d3ec208b37.jpg",
+    "main.css": "/ReactSite/static/css/main.25816126.css",
+    "main.js": "/ReactSite/static/js/main.eb3d1594.js",
     "static/media/article.jpg": "/ReactSite/static/media/article.bd21bdaf6569bf55d84a.jpg",
-    "static/media/dest-vermont.jpg": "/ReactSite/static/media/dest-vermont.05c336f78245c1c81034.jpg",
-    "static/media/dest-colorado.jpg": "/ReactSite/static/media/dest-colorado.a89dc99e88213e140f54.jpg",
-    "static/media/dest-utah.jpg": "/ReactSite/static/media/dest-utah.201712ab2fe381fae2cf.jpg",
-    "static/media/dest-maine.jpg": "/ReactSite/static/media/dest-maine.d8cd1d462f1e0d795ca4.jpg",
-    "static/media/colorado.jpg": "/ReactSite/static/media/colorado.e72ad885bb6c380fa6a0.jpg",
     "static/media/top-image.jpg": "/ReactSite/static/media/top-image.6a94a138d5dc177cc040.jpg",
-    "static/media/washington-page.jpg": "/ReactSite/static/media/washington-page.fbba34b67e5190230819.jpg",
     "static/media/logo.jpg": "/ReactSite/static/media/logo.b91239243b96f8734824.jpg",
-    "static/media/vermont-page.jpg": "/ReactSite/static/media/vermont-page.9a508912d0b1c34c748f.jpg",
-    "static/media/ny-page.jpg": "/ReactSite/static/media/ny-page.8df9efb3de639178a0e4.jpg",
-    "static/media/canada-page.jpg": "/ReactSite/static/media/canada-page.4a994241a2e775ff41c9.jpg",
-    "static/media/california-page.jpg": "/ReactSite/static/media/california-page.b2cc9de61d46b746e41d.jpg",
-    "static/media/washington.jpg": "/ReactSite/static/media/washington.98e4a931610222497b24.jpg",
-    "static/media/california.jpg": "/ReactSite/static/media/california.f7a74a719062e7e72505.jpg",
     "static/media/boots.jpg": "/ReactSite/static/media/boots.875591ebb8991bc118b0.jpg",
     "static/media/skis.jpg": "/ReactSite/static/media/skis.afcc9be7afb98c406c53.jpg",
-    "static/media/utah-page.jpg": "/ReactSite/static/media/utah-page.8bc3a74c3114a38e18b6.jpg",
-    "static/media/maine-page.jpg": "/ReactSite/static/media/maine-page.42bb218216dc1fd5635b.jpg",
     "index.html": "/ReactSite/index.html",
-    "main.665e0e42.css.map": "/ReactSite/static/css/main.665e0e42.css.map",
-    "main.a3586843.js.map": "/ReactSite/static/js/main.a3586843.js.map"
+    "main.25816126.css.map": "/ReactSite/static/css/main.25816126.css.map",
+    "main.eb3d1594.js.map": "/ReactSite/static/js/main.eb3d1594.js.map"
   },
   "entrypoints": [
-    "static/css/main.665e0e42.css",
-    "static/js/main.a3586843.js"
+    "static/css/main.25816126.css",
+    "static/js/main.eb3d1594.js"
   ]
 }
