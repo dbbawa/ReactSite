@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/ReactSite/static/css/main.25816126.css",
-    "main.js": "/ReactSite/static/js/main.eb3d1594.js",
+    "main.css": "/ReactSite/static/css/main.e5a035f7.css",
+    "main.js": "/ReactSite/static/js/main.38f20f98.js",
     "static/media/article.jpg": "/ReactSite/static/media/article.bd21bdaf6569bf55d84a.jpg",
     "static/media/top-image.jpg": "/ReactSite/static/media/top-image.6a94a138d5dc177cc040.jpg",
     "static/media/logo.jpg": "/ReactSite/static/media/logo.b91239243b96f8734824.jpg",
     "static/media/boots.jpg": "/ReactSite/static/media/boots.875591ebb8991bc118b0.jpg",
     "static/media/skis.jpg": "/ReactSite/static/media/skis.afcc9be7afb98c406c53.jpg",
     "index.html": "/ReactSite/index.html",
-    "main.25816126.css.map": "/ReactSite/static/css/main.25816126.css.map",
-    "main.eb3d1594.js.map": "/ReactSite/static/js/main.eb3d1594.js.map"
+    "main.e5a035f7.css.map": "/ReactSite/static/css/main.e5a035f7.css.map",
+    "main.38f20f98.js.map": "/ReactSite/static/js/main.38f20f98.js.map"
   },
   "entrypoints": [
-    "static/css/main.25816126.css",
-    "static/js/main.eb3d1594.js"
+    "static/css/main.e5a035f7.css",
+    "static/js/main.38f20f98.js"
   ]
 }
