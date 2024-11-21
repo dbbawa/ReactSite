@@ -1,0 +1,22 @@
+:root {
+    --color-black: #000000;
+    --color-dark-gray: #333333;
+    --color-gray: #666666;
+    --color-light-gray: #cccccc;
+    --color-white: #ffffff;
+    --color-lightgray: lightgray; 
+    --color-darkgray-border: #ddd; 
+    --color-lightblue: #90D5FF; 
+    --color-lightpink: #ffd0d7; 
+    --color-background: #f3f4fc; 
+    --color-blue: #e4ecfc;
+    --color-footer: #bcccdc;
+}
+
+body {
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    overflow-x: hidden;
+    background-color: var(--color-background);
+    color: var(--color-black);
+}

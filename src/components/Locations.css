@@ -1,0 +1,61 @@
+.locations-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.locations-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease;
+    padding: 10px;
+    cursor: pointer;
+}
+
+ .locations-list img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.locations-list img:hover {
+    transform: scale(1.05);
+}
+
+.locations-item h3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    color: var(--color-black);
+}
+
+#add-location {
+    background-color: var(--color-blue);
+}
+
+#add-location:hover {
+    transform: scale(1.05);
+}
+
+#change-buttons a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: black;
+    padding: 5px;
+}
+
+@media (max-width: 1000px) {
+    .locations-list {
+        grid-template-columns: 1fr; 
+        width: 100%;
+        padding: 10px;
+    }
+}

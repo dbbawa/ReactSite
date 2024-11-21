@@ -1,0 +1,26 @@
+#add-dialog {
+    display: block;
+ }
+ 
+ 
+ #add-dialog,
+ #edit-dialog,
+ #delete-dialog {
+  display: block;
+ }
+ 
+ 
+ #delete-content {
+  margin-bottom: 10px;
+ }
+ 
+ 
+ #img-prev {
+  max-width: 100%;
+ }
+ 
+ 
+ #delete-dialog button {
+  margin-right: 10px;
+ }
+ 
