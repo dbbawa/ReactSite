@@ -5,7 +5,7 @@ const EditDialog = (props) => {
     const [inputs, setInputs] = useState({
         _id: props._id,
         name: props.name,
-        image: props.image,
+        prev_img: props.image,
     });
     const [result, setResult] = useState("");
 
@@ -21,7 +21,25 @@ const EditDialog = (props) => {
         setInputs((values) => ({ ...values, [name]: value }));
       };
 
-      const onSubmit = async (event) => {}
+      const onSubmit = async (event) => {
+        event.preventDefault();
+        setResult("Sending....");
+        const formData = new FormData(event.target);
+        const response = await fetch(`http://localhost:3001/api/locations/${props._id}`,
+        {
+          method:"PUT",
+          body:formData
+        });
+
+        if(response.status === 200){
+            setResult("Location successfully updated");
+            event.target.reset();
+            props.editLocation(await response.json());
+            props.closeDialog();
+          } else {
+            setResult("Error edditing location");
+          }
+        };
 
       return (
         <div id="edit-dialog" className="w3-modal">

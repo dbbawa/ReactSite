@@ -1,0 +1,11 @@
+#img-prev-section {
+    display: flex;
+}
+
+#img-prev {
+    width: 350px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}

@@ -2,8 +2,9 @@ import React, { useState } from 'react';
 import './Location.css'
 import EditDialog from './edit-dialog';
 
-const Location = (location) => {
+const Location = (props) => {
     const [showEditDialog, setShowEditDialog] = useState(false);
+    const [location, setLocation] = useState(props);
 
 const openEditDialog = (e) => {
     e.preventDefault();
@@ -14,11 +15,16 @@ const openEditDialog = (e) => {
     setShowEditDialog(false);
    };
 
+   const editLocation = (location) => {
+    setLocation(location);
+};
+
 return (
 <div>
                         {showEditDialog ? (
                         <EditDialog 
                         closeDialog={closeEditDialog} 
+                        editLocation={editLocation}
                         _id={location._id}
                         name={location.name}
                         image={location.image}
