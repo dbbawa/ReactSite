@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './delete-dialog.css';
+
 
 const DeleteDialog = (props) => {
     const [result, setResult] = useState("");

@@ -1,0 +1,11 @@
+#delete-content {
+  border-radius: 8px;
+  border: 2px solid white; 
+  background-color: var(--color-blue);
+  padding: 20px;
+}
+
+#dialog-close {
+    padding: 20px;
+}
+
