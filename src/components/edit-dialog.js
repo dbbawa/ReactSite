@@ -37,7 +37,7 @@ const EditDialog = (props) => {
             props.editLocation(await response.json());
             props.closeDialog();
           } else {
-            setResult("Error edditing location");
+            setResult("Error editing location");
           }
         };
 
