@@ -16,7 +16,17 @@ const openEditDialog = (e) => {
 
 return (
 <div>
-                        {showEditDialog ? <EditDialog /> : ""}
+                        {showEditDialog ? (
+                        <EditDialog 
+                        closeDialog={closeEditDialog} 
+                        _id={location._id}
+                        name={location.name}
+                        image={location.image}
+                        /> 
+                        ) : ( 
+                            ""
+                        )}
+
                        <header className="list">
                        <h3>{location.name}</h3>
                        <img src={"https://serverside-4czo.onrender.com/images/" + location.image} alt={location.name} />
