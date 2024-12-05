@@ -11,7 +11,7 @@ const AddDialog = (props) => {
 
        const formData = new FormData(event.target);
 
-       const response = await fetch("https://serverside-4czo.onrender.com/api/locations", {
+       const response = await fetch("https://serverside-4czo.onrender.com/api/locations/", {
            method: "POST",
            body: formData,
        });
