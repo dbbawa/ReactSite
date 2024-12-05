@@ -25,7 +25,7 @@ const EditDialog = (props) => {
         event.preventDefault();
         setResult("Sending....");
         const formData = new FormData(event.target);
-        const response = await fetch(`http://localhost:3001/api/locations/${props._id}`,
+        const response = await fetch(`https://serverside-4czo.onrender.com/api/locations/${props._id}`,
         {
           method:"PUT",
           body:formData

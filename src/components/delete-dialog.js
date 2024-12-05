@@ -6,7 +6,7 @@ const DeleteDialog = (props) => {
     const [result, setResult] = useState("");
 
     const deleteLocation = async() => {
-        const response = await fetch(`http://localhost:3001/api/locations/${props._id}`,{
+        const response = await fetch(`https://serverside-4czo.onrender.com/api/locations/${props._id}`, {
             method:"DELETE"
            }
         );
