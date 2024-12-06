@@ -15,7 +15,7 @@ const Locations = () => {
    useEffect(() => {
        const fetchLocations = async () => {
            try {
-               const response = await axios.get("http://localhost:3001/api/locations/");
+               const response = await axios.get("https://serverside-4czo.onrender.com/api/locations/");
                setLocations(response.data);
            } catch (error) {
                console.error('Error fetching locations:', error);
